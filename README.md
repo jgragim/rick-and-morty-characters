@@ -2,6 +2,8 @@
 
 Rick and Morty characters list, based on [The Rick and Morty API](https://rickandmortyapi.com/).
 
+Try live [demo](https://jgragim.github.io/rick-and-morty-characters).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
 
 ## Development server
