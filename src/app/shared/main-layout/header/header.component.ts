@@ -10,4 +10,8 @@ export class HeaderComponent {
 
   constructor(public layoutService: LayoutService) { }
 
+  public navigateExternalUrl(url: string) {
+    window.open(url, "_blank");
+  }
+
 }

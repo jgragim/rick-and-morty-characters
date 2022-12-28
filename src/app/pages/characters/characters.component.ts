@@ -91,6 +91,13 @@ export class CharactersComponent implements OnInit, OnDestroy {
     this.navigateWithParams();
   }
 
+  public clearAll() {
+    this.name = '';
+    this.status = '';
+    this.species = '';
+    this.gender = '';
+  }
+
   public navigateWithParams() {
     let navigationExtras: NavigationExtras = {queryParams: {}};
     if (this.name) navigationExtras.queryParams!["name"] = this.name;

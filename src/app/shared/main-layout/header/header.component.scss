@@ -1,14 +1,11 @@
 .logo-img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  img {
-    height: 5vh;
-  }
+  height: max(6vh, 40px);
 }
 
 .header {
-  height: 6vh;
+  height: max(7vh, 48px);
+  min-height: unset;
   position: relative;
+  z-index: 2;
+  font: unset;
 }
